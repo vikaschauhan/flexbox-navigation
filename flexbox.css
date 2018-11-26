@@ -20,6 +20,9 @@ a{
     color: #000;
     text-decoration: none;
 }
+h1{
+    padding: 15px 0px;
+}
 
 .header-1{
     min-height: 75px;
