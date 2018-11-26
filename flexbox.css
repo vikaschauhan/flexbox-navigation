@@ -48,13 +48,31 @@ h1{
     }
 }
 
-nav{
+.navbar-1{
     font-weight: 400;
 }
 
-nav ul{
+.navbar-1 ul{
     width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.navbar-2{
+    display: flex;
+    background: lightskyblue;
+    min-height: 75px;
+    align-items: center;
+}
+.navbar-2 .logo{
+    flex: 1;
+    justify-content: flex-start;
+}
+.navbar-2 .navbar-links{
+    justify-content: flex-end;
+}
+.navbar-2 ul li{
+    display: inline;
+    padding: 0 1em;
+    color: white;   
 }
