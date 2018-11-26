@@ -1,0 +1,57 @@
+/** Global element styling **/
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+main{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.header-1{
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+@media (max-width: 600px){
+    .header-1{
+        flex-wrap: wrap;
+    }
+}
+.logo{
+    width: 60vw;
+}
+@media(max-width: 650px){
+    .logo{
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+}
+
+nav{
+    font-weight: 400;
+}
+
+nav ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
